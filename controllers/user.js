@@ -294,7 +294,7 @@ exports.changePassword = async (req, res) => {
     {
       password: cryptedPassword,
     }
-  ); 
+  );
   return res.status(200).json({ message: "ok" });
 };
 
